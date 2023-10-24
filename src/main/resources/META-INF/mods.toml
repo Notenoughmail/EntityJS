@@ -1,0 +1,41 @@
+modLoader="javafml"
+loaderVersion="[40,)"
+license="MIT"
+
+[[mods]]
+    modId="entityjs"
+    version="${file.jarVersion}"
+    displayName="EntityJS"
+    #displayURL="https://change.me.to.your.mods.homepage.example.invalid/"
+    # logoFile="entityjs_logo.png"
+    # credits="Thanks for this example mod goes to Java"
+    authors="NotEnoughMail"
+    description='''Entities through KubeJS'''
+
+[[dependencies.entityjs]]
+    modId="forge"
+    mandatory=true
+    versionRange="[40,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.entityjs]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.18.2,1.19)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.entityjs]]
+    modId="kubejs"
+    mandatory=true
+    versionRange="[1802.5.4-build.521,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.entityjs]]
+    modId="geckolib3"
+    mandatory=true
+    versionRange="[3.0.57,)"
+    ordering="NONE"
+    side="BOTH"
